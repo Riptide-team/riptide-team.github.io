@@ -7,7 +7,8 @@ nav:
         - design/conventions.md
         - design/imu.md
         - design/ros2control.md
-        - design/tf.md
+    - Packages:
+      - packages/list.md
     - Checklists:
         - mission/preparation_checklist.md
         - mission/stuff_checklist.md
