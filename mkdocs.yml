@@ -5,6 +5,7 @@ nav:
     - Design:
         - design/transforms.md
         - design/conventions.md
+        - design/imu.md
         - design/ros2control.md
         - design/tf.md
     - Checklists:
