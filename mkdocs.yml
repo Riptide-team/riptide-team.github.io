@@ -3,6 +3,8 @@ site_name: Riptide Documentation
 nav:
     - Home: index.md
     - Design:
+        - design/transforms.md
+        - design/conventions.md
         - design/ros2control.md
         - design/tf.md
     - Checklists:
