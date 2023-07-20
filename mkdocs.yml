@@ -1,4 +1,5 @@
 site_name: Riptide Documentation
+
 nav:
     - Home: index.md
     - Design:
@@ -8,9 +9,11 @@ nav:
         - mission/preparation_checklist.md
         - mission/stuff_checklist.md
     - About: about.md
+    
 theme:
   name: material
   icon:
+    logo: material/submarine
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
