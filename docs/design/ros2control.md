@@ -1,6 +1,6 @@
 # Ros2Control
 
-Ros2Control is a framework providing interesting features in robotics, such as realtime control. This page is presenting the main features that are usefull in the Riptide control.
+[Ros2Control](https://control.ros.org/master/index.html) is a framework providing interesting features in robotics, such as realtime control. This page is presenting the main features that are usefull in the Riptide control.
 
 ## Realtime control
 
@@ -22,11 +22,14 @@ It's recommanded to avoid multiple nodes to control the same actuator at the sam
 
 ## Efficient switch of controllers
 
-Controllers switch is performed between two control loops to avoid downtimes.
+Controllers can be switched runtime between two control loops to avoid downtimes. It's better than classical solution provided by ros which cannot perform such tasks.
 
 ## Chaining controllers
 
-The ability to chain atomic controllers to elaborate complex control laws.
+Controllers can be chained to elaborate more complex control laws based on atomic controlkers.
+
+??? tip "Available controllers"
+    Consult the list of [available controllers](../quickstart/controllers_list.md) 
 
 ## Simulation and real code are the same
 
