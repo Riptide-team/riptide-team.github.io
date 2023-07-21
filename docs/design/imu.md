@@ -4,10 +4,10 @@ Riptide imu follows the [REP-145: Conventions for IMU Sensor Drivers](https://ro
 
 ## Published topics
 
-| Topic name    | Type                                                                                               |
-| ------------- | -------------------------------------------------------------------------------------------------- |
-| `imu_raw_ned` | [`sensor_msgs/Imu`](https://docs.ros2.org/latest/api/sensor_msgs/msg/Imu.html)                     |
-| `imu_ned`     | [`sensor_msgs/Imu`](https://docs.ros2.org/latest/api/sensor_msgs/msg/Imu.html)                     |
-| `magnetic`    | [`sensor_msgs/MagneticField`](https://docs.ros2.org/latest/api/sensor_msgs/msg/MagneticField.html) |
+| Topic name       | Type                                                                                               |
+| ---------------- | -------------------------------------------------------------------------------------------------- |
+| `~/imu/data_raw` | [`sensor_msgs/Imu`](https://docs.ros2.org/latest/api/sensor_msgs/msg/Imu.html)                     |
+| `~/imu/data`     | [`sensor_msgs/Imu`](https://docs.ros2.org/latest/api/sensor_msgs/msg/Imu.html)                     |
+| `~/imu/mag`      | [`sensor_msgs/MagneticField`](https://docs.ros2.org/latest/api/sensor_msgs/msg/MagneticField.html) |
 
 ## Calibration
