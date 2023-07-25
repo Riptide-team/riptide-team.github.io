@@ -8,7 +8,7 @@ TF is the Riptide are following the [REP-105: Coordinate Frames for Mobile Platf
 flowchart LR
     subgraph world
     direction LR
-    w1(world)-->w2(map)-->w3(footprint)-->w4(base_link)
+    w1(earth)-->w2(map)-->w3(odom)-->w4(base_link)
     end
     subgraph actuators
     direction LR
