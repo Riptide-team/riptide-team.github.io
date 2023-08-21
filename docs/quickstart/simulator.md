@@ -6,6 +6,8 @@ The simulator is based on [Ignition Gazebo Garden](https://gazebosim.org/home). 
 
 ## Available worlds
 
+### Infinite ocean
+
 The riptide is currently launched in an infinite ocean. The sea-surface is fixed at $z = 0\ m$, above the fluid density is fixed at $\rho_{air} = 1\ kg.m^{-3}$ and below this limit the density is fixed at $\rho_{air} = 1000\ kg.m^{-3}$.
 
 ??? Warning "Actuators and sea surface"
