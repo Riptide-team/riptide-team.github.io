@@ -59,7 +59,7 @@ Riptide controller able to generate thruster and fin control values from desired
 
 ```mermaid
 flowchart LR
-    s1[orientation.x] & s2[orientation.y] & s3[orientation.z] & s4[orientation.w] --> c(depth_controller) --> c1[thruster] & c2[d_fin] & c3[p_fin] & c4[s_fin]
+    s1[orientation.x] & s2[orientation.y] & s3[orientation.z] & s4[orientation.w] --> c(riptide_controller) --> c1[thruster] & c2[d_fin] & c3[p_fin] & c4[s_fin]
     class s1,s2,s3,s4 state;
     class c1,c2,c3,c4 command;
     class c controller;
