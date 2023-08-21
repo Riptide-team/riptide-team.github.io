@@ -1,6 +1,6 @@
 # Simulator
 
-The simulator is based on [Ignition Gazebo Garden](https://gazebosim.org/home). It let to quickly test the behavior of the Riptide while implementing new control laws.
+The simulator is based on [Ignition Gazebo Garden](https://gazebosim.org/home). It let to quickly test the behavior of the Riptide while implementing new control laws. Riptide simulation and worlds are described using [SDFormat language](http://sdformat.org/).
 
 ![Riptide simulation in Ignition Gazebo Garden](gazebo_simulation.png)
 
