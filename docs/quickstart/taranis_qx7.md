@@ -15,8 +15,12 @@ Here is the procedure to use the `Taranis QX7 controller` with the simulator.
 ```bash
 > ros2 run joy joy_node
 [INFO 1693900564.881254763] [joy_node]: No haptic (rumble) available, skipping initialization (handleJoyDeviceAdded() at ./src/joy.cpp:394)                                                                 
-[INFO 1693900564.881379413] [joy_node]: Opened joystick: OpenTX FrSky Taranis Joystick.  deadzone: 0.0 50000 (handleJoyDeviceAdded() at ./src/joy.cpp:397)  
+[INFO 1693900564.881379413] [joy_node]: Opened joystick: OpenTX FrSky Taranis Joystick.  deadzone: 0.0 50000 (handleJoyDeviceAdded() at ./src/joy.cpp:397)
 ```
+
+`sensor_msgs/msg/Joy` should be published by the `joy_node` under the `/joy` topic.
+
+### Troubleshooting
 
 ??? Question "Is the controller well recognized by the computer ?"
 	To check that the `Taranis QX7 Controller` is well recognized by the computer and `Ros2` you can run
@@ -28,8 +32,6 @@ Here is the procedure to use the `Taranis QX7 controller` with the simulator.
 					0 : OpenTX FrSky Taranis Joystick
 	```
 	Here the controller is well recognized.
-
-`sensor_msgs/msg/Joy` should be published by the `joy_node` under the `/joy` topic.
 
 ??? Question "How to check that messages are correctly published ?"
 
@@ -87,3 +89,6 @@ Here is the procedure to use the `Taranis QX7 controller` with the simulator.
 	- 0
 	---
 	```
+
+??? Question "Can I unplug the TBS Crossfire RC emitter from the Controller ?"
+	Yes indeed ! It's safer to avoid unwanted control of the Riptide through simulation and to avoid emitter's buzzing noise while trying to communicate with the RC receiver in the Riptide.
