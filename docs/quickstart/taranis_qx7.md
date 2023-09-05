@@ -8,6 +8,7 @@ Here is the procedure to use the `Taranis QX7 controller` with the simulator.
 - Start the `Taranis QX7 Controller`
 - Plug an usb cable in the bottom usb port of the `Taranis QX7 Controller`
 - Plug this cabe in an usb port of the computer
+- Select mode `USB Joystick (HID)` on the `Taranis QX7 Controller`
 - Check that the device is recognized by the computer and accessible by `Ros2`
 - Launch the `joy_node` of the `joy` package
 
