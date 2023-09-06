@@ -12,11 +12,19 @@ nav:
     - Quickstart:
       - quickstart/simulator.md
       - quickstart/taranis_qx7.md
-      - quickstart/controllers_list.md
+    - Controllers: 
+      - controllers/index.md
+      - Available broadcasters:
+        - controllers/broadcasters/joint_state_broadcaster.md
+        - controllers/broadcasters/imu_sensor_broadcaster.md
+        - controllers/broadcasters/riptide_pressure_broadcaster.md
+        - controllers/broadcasters/riptide_tail_broadcaster.md
+      - Available controllers:
+        - controllers/riptide_controller.md
+        - controllers/depth_controller.md
     - Checklists:
         - mission/preparation_checklist.md
         - mission/stuff_checklist.md
-    - About: about.md
     
 theme:
   name: material
@@ -35,6 +43,18 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - navigation.sections
+    # - navigation.path 
+    - toc.integrate
+
 
 markdown_extensions:
   - admonition
