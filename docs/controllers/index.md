@@ -15,13 +15,13 @@ Here is the list of implemented broadcasters for the Riptide
 
 Here is the list of implemented controllers for the Riptide
 
-| Controller name          | Type                  | Description                         |
-| ------------------------ | --------------------- |------------------------------------ |
-| `depth_controller`       | `Controller`          | Simple depth controller             |
-| `riptide_controller`     | `ChainableController` | Riptide twist controller            |
-| `log_controller`         | `Controller`          | Log based atitude controller        |
-| `orthogonal_controller`  | `Controller`          | Orhtogonal based atitude controller |
-| `immersion_controller`   | `Controller`          | Riptide immersion controller        |
+| Controller name                                                   | Type                  | Description                         |
+|-------------------------------------------------------------------|-----------------------|-------------------------------------|
+| [`depth_controller`](./controllers/depth_controller.md)           | `Controller`          | Simple depth controller             |
+| [`riptide_controller`](./controllers/riptide_controller.md)       | `ChainableController` | Riptide twist controller            |
+| [`log_controller`](./controllers/log_controller.md)               | `Controller`          | Log based atitude controller        |
+| [`orthogonal_controller`](./controllers/orthogonal_controller.md) | `Controller`          | Orhtogonal based atitude controller |
+| [`immersion_controller`](./controllers/immersion_controller.md)   | `Controller`          | Riptide immersion controller        |
 
 
 ??? Example "Implementation of `orthogonal_controller`"

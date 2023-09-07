@@ -20,8 +20,11 @@ nav:
         - controllers/broadcasters/riptide_pressure_broadcaster.md
         - controllers/broadcasters/riptide_tail_broadcaster.md
       - Available controllers:
-        - controllers/riptide_controller.md
-        - controllers/depth_controller.md
+        - controllers/controllers/depth_controller.md
+        - controllers/controllers/immersion_controller.md
+        - controllers/controllers/log_controller.md
+        - controllers/controllers/orthogonal_controller.md
+        - controllers/controllers/riptide_controller.md
     - Checklists:
         - mission/preparation_checklist.md
         - mission/stuff_checklist.md
@@ -52,7 +55,6 @@ theme:
     - navigation.indexes
     - navigation.top
     - navigation.sections
-    # - navigation.path 
     - toc.integrate
 
 
