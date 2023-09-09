@@ -4,7 +4,7 @@ Riptide controller able to generate thruster and fin control values from desired
 
 ```mermaid
 flowchart LR
-    s1[orientation.x] & s2[orientation.y] & s3[orientation.z] & s4[orientation.w] --> c(riptide_controller) --> c1[thruster] & c2[d_fin] & c3[p_fin] & c4[s_fin]
+    s1[linear_velocity.x] & s2[angular_velocity.x] & s3[angular_velocity.y] & s4[angular_velocity.z] --> c(riptide_controller) --> c1[thruster] & c2[d_fin] & c3[p_fin] & c4[s_fin]
     class s1,s2,s3,s4 state;
     class c1,c2,c3,c4 command;
     class c controller;
@@ -31,11 +31,23 @@ flowchart LR
 | `orientation.z`   | Robot orientation quaternion z |
 | `orientation.w`   | Robot orientation quaternion w |
 
-## Parameters
+## Reference interfaces
 
-- 
+| `reference_interface` | Description                             |
+|-----------------------|-----------------------------------------|
+| `linear_velocity.x`   | Requested linear velocity along x axis  |
+| `angular_velocity.x`  | Requested angular velocity along x axis |
+| `angular_velocity.y`  | Requested angular velocity along y axis |
+| `angular_velocity.z`  | Requested angular velocity along z axis |
 
-## Actions server
+## Subscribed topic
 
-action can be called 
+| Topic name  | Type                                                                                         | Description   |
+|-------------|----------------------------------------------------------------------------------------------|---------------|
+| `~/cmd_vel` | [`geometry_msgs/Twist`](http://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Twist.html) | Desired Twist |
 
+## Published topics
+
+| Topic name            | Type                                  | Description             |
+|-----------------------|---------------------------------------|-------------------------|
+| `~/controller_state`  | `riptide_msgs/RiptideControllerState` | Controller actual state |
