@@ -29,7 +29,7 @@ Controllers can be switched runtime between two control loops to avoid downtimes
 Controllers can be chained to elaborate more complex control laws based on atomic controlkers.
 
 ??? tip "Available controllers"
-    Consult the list of [available controllers](../controllers/index.md) 
+    Consult the list of [available controllers](./controllers/index.md) 
 
 ## Simulation and real code are the same
 

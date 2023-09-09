@@ -6,25 +6,28 @@ nav:
         - design/transforms.md
         - design/conventions.md
         - design/imu.md
-        - design/ros2control.md
     - Packages:
       - packages/packages_list.md
     - Quickstart:
       - quickstart/simulator.md
       - quickstart/taranis_qx7.md
-    - Controllers: 
-      - controllers/index.md
-      - Available broadcasters:
-        - controllers/broadcasters/joint_state_broadcaster.md
-        - controllers/broadcasters/imu_sensor_broadcaster.md
-        - controllers/broadcasters/riptide_pressure_broadcaster.md
-        - controllers/broadcasters/riptide_tail_broadcaster.md
-      - Available controllers:
-        - controllers/controllers/depth_controller.md
-        - controllers/controllers/immersion_controller.md
-        - controllers/controllers/log_controller.md
-        - controllers/controllers/orthogonal_controller.md
-        - controllers/controllers/riptide_controller.md
+    - Ros2Control: 
+      - ros2control/index.md
+      - Hardware Interfaces:
+        - ros2control/hardware_interfaces/index.md
+      - Broadcasters:
+        - ros2control/broadcasters/index.md
+        - imu_sensor_broadcaster: ros2control/broadcasters/imu_sensor_broadcaster.md
+        - joint_state_broadcaster: ros2control/broadcasters/joint_state_broadcaster.md
+        - riptide_pressure_broadcaster: ros2control/broadcasters/riptide_pressure_broadcaster.md
+        - riptide_tail_broadcaster: ros2control/broadcasters/riptide_tail_broadcaster.md
+      - Controllers:
+        - ros2control/controllers/index.md
+        - depth_controller: ros2control/controllers/depth_controller.md
+        - immersion_controller: ros2control/controllers/immersion_controller.md
+        - log_controller: ros2control/controllers/log_controller.md
+        - orthogonal_controller: ros2control/controllers/orthogonal_controller.md
+        - riptide_controller: ros2control/controllers/riptide_controller.md
     - Checklists:
         - mission/preparation_checklist.md
         - mission/stuff_checklist.md
