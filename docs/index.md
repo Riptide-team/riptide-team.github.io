@@ -1,10 +1,23 @@
 # Welcome to the Riptide documentation
 
-<div class="grid cards" markdown>
+::cards:: cols=2
 
-- :fontawesome-arrow-right-from-bracket: __QuickStart__ to be kickstarted into the Riptide
-- :fontawesome-gears: __Ros2Control__ to see available controllers
-- :fontawesome-computer: __Simulator__ to simulate the Riptide
-- :fontawesome-raspberry-pi: __Pi4 Image__ the last image to flash on the Riptide
+- title: Checklists
+  content: Time-saving checklists are always welcome
+  image: ./verified.png
+  url: ./checklists/index.md
 
-</div>
+- title: Ros2Control
+  content: To speak about realtime control or the Riptide
+  image: ./ros2control.png
+  url: ./ros2control/index.md
+
+- title: Simulator
+  content: Prepare and simulate Riptide's missions
+  image: ./computer.png
+
+- title: Raspberry Pi 4 Image
+  content: Get the last image to flash on the Riptide
+  image: ./raspberry-pi.png
+
+::/cards::

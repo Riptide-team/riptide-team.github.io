@@ -23,12 +23,13 @@ nav:
         - riptide_tail_broadcaster: ros2control/broadcasters/riptide_tail_broadcaster.md
       - Controllers:
         - ros2control/controllers/index.md
-        - depth_controller: ros2control/controllers/depth_controller.md
         - immersion_controller: ros2control/controllers/immersion_controller.md
-        - log_controller: ros2control/controllers/log_controller.md
-        - orthogonal_controller: ros2control/controllers/orthogonal_controller.md
         - riptide_controller: ros2control/controllers/riptide_controller.md
+        - log_controller: ros2control/controllers/log_controller.md
+        - depth_controller: ros2control/controllers/depth_controller.md
+        - orthogonal_controller: ros2control/controllers/orthogonal_controller.md
     - Checklists:
+      - checklists/index.md
       - Packing Checklists:
         - Stuff Checklists: checklists/stuff_checklist.md
         - Preparation Checklists: checklists/preparation_checklist.md
@@ -64,6 +65,7 @@ theme:
 
 
 markdown_extensions:
+  - neoteroi.cards
   - admonition
   - pymdownx.details
   - attr_list
@@ -86,6 +88,9 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
+
+extra_css:
+  - css/neoteroi-mkdocs.css
 
 extra_javascript:
   - javascripts/mathjax.js
