@@ -31,10 +31,10 @@ nav:
         - repartition_controller: ros2control/controllers/repartition_controller.md
     - Checklists:
       - checklists/index.md
-      - Packing Checklists:
-        - Stuff Checklists: checklists/stuff_checklist.md
-        - Preparation Checklists: checklists/preparation_checklist.md
+      - Stuff Checklists: checklists/stuff_checklist.md
+      - Preparation Checklists: checklists/preparation_checklist.md
       - Mission Checklists: checklists/mission_checklist.md
+      - Toolbox: checklists/toolbox.md
     
 theme:
   name: material
