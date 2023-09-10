@@ -18,7 +18,7 @@ Control are currently bind respecting the following table:
 | `SF`  | Automatic / Manual           | Enable the controller                                       |
 | `SH`  | Multiplexer ignition         | Latching the switch launch the multiplexer                  |
 | `SD`  | Multiplexer multiplicator    | Multiplication factor: $\times 1$ / $\times 2$ / $\times 3$ |
-| `S1`  | Multiplexer value            | Value of the time alloxed for the mission                   |
+| `S1`  | Multiplexer value            | Value of the time allowed for the mission                   |
 
 
 ## Simulation
