@@ -15,6 +15,9 @@ nav:
       - ros2control/index.md
       - Hardware Interfaces:
         - ros2control/hardware_interfaces/index.md
+        - tail_hardware_interface: ros2control/hardware_interfaces/tail_hardware_interface.md
+        - imu_hardware_interface: ros2control/hardware_interfaces/imu_hardware_interface.md
+        - pressure_hardware_interface: ros2control/hardware_interfaces/pressure_hardware_interface.md
       - Broadcasters:
         - ros2control/broadcasters/index.md
         - imu_sensor_broadcaster: ros2control/broadcasters/imu_sensor_broadcaster.md
