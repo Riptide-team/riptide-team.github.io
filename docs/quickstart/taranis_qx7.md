@@ -12,7 +12,7 @@ Control are currently bind respecting the following table:
 |-------|------------------------------|-------------------------------------------------------------|
 | `J1`  | Rudder (RUD / Yaw)           | Yaw of the robot                                            |
 | `J2`  | Elevator (ELE / Pitch)       | Pitch of the robot                                          |
-| `J3`  | {--Aileron (AIL / Roll)--}   | {--Roll (not bind for now)--}                               |
+| `J3`  | Aileron (AIL / Roll)         | Roll (not bind for now)                                     |
 | `J4`  | Thrust                       | Thrust value of the propeller                               |
 | `SA`  | Forward / Neutral / Backward | Sign of the thrust                                          |
 | `SF`  | Automatic / Manual           | Enable the controller                                       |
