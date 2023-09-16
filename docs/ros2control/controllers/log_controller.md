@@ -4,13 +4,16 @@ Log controller able to generate angular velocity from current robot's orientatio
 
 ```mermaid
 flowchart LR
-    s1[desired_quaternion.x] & s2[desired_quaternion.y] & s3[desired_quaternion.z] & s4[desired_quaternion.w] --> c(log_controller) --> c1[linear_velocity.x] & c2[angular_velocity.x] & c3[angular_velocity.y] & c4[angular_velocity.z]
+    s1[orientation.x] & s2[orientation.y] & s3[orientation.z] & s4[orientation.w] & r1[desired_orientation.x] & r2[desired_orientation.y] & r3[desired_orientation.z] & r4[desired_orientation.w] --- s( ):::empty --> c(log_controller) --- R( ):::empty --> c1[linear_velocity.x] & c2[angular_velocity.x] & c3[angular_velocity.y] & c4[angular_velocity.z]
     class s1,s2,s3,s4 state;
     class c1,c2,c3,c4 command;
+    class r1,r2,r3,r4 reference;
     class c controller;
     classDef state stroke:#2ecc71,stroke-width:2px;
     classDef controller stroke:#3498db,stroke-width:2px;
     classDef command stroke:#e74c3c,stroke-width:2px;
+    classDef reference stroke:#8e44ad,stroke-width:2px;
+    classDef empty width:-1px,height:-1px;
 ```
 
 ## Command interfaces

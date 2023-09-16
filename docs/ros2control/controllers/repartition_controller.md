@@ -4,13 +4,14 @@ Riptide forces and torques repartition controller able to generate thruster and 
 
 ```mermaid
 flowchart LR
-    s1[force.x] & s2[torque.x] & s3[torque.y] & s4[torque.z] --> c(repartition_controller) --> c1[thruster] & c2[d_fin] & c3[p_fin] & c4[s_fin]
+    s1[force.x] & s2[torque.x] & s3[torque.y] & s4[torque.z] --- S( ):::empty --> c(repartition_controller) --- R( ):::empty --> c1[thruster] & c2[d_fin] & c3[p_fin] & c4[s_fin]
     class s1,s2,s3,s4 state;
     class c1,c2,c3,c4 command;
     class c controller;
     classDef state stroke:#2ecc71,stroke-width:2px;
     classDef controller stroke:#3498db,stroke-width:2px;
     classDef command stroke:#e74c3c,stroke-width:2px;
+    classDef empty width:-1px,height:-1px;
 ```
 
 ## Command interfaces
