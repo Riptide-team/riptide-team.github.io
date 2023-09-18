@@ -6,6 +6,7 @@ nav:
         - design/transforms.md
         - design/conventions.md
         - design/imu.md
+        - design/network.md
     - Packages:
       - packages/packages_list.md
     - Quickstart:
@@ -79,6 +80,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.emoji
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
