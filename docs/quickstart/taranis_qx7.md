@@ -20,6 +20,17 @@ Control are currently bind respecting the following table:
 | `SD`  | Multiplexer multiplicator    | Multiplication factor: $\times 1$ / $\times 2$ / $\times 3$ |
 | `S1`  | Multiplexer value            | Value of the time allowed for the mission                   |
 
+## Modded Taranis for TBS Crossfire Telemetry
+
+The FrSky Taranis Q X7 controller has been modded to have a reliable telemetry. Without this modification the telemetry seems to be lost and recovered approximatively every seconds. Furthermore, this modification allow to increase the baudrate from $100 kHz$ to $400 kHz$ for the radio communication.
+
+This modification is simply a solder of the micro-pcb sold with the TBS Crossfire TX instead of an original Frky Taranis Q X7 transistor, which has to be removed. The procedure is available on the [Philipp Seidel's blog](https://blog.seidel-philipp.de/fixed-inverter-mod-for-tbs-crossfire-and-frsky-qx7/). The installation is quite easy but requires some good soldering skills :wink:.
+
+<figure markdown>
+  ![Modded FrSky Taranis Q X7 Controller](modded_taranis.jpg){ width="45%" }
+  ![Modded FrSky Taranis Q X7 Controller](modded_crossfire.jpg){ width="45%" }
+  <figcaption>Modded FrSky Taranis Q X7 Controller</figcaption>
+</figure>
 
 ## Simulation
 
